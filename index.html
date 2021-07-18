@@ -1211,15 +1211,13 @@
       </div>
     </footer>
     <!-- SalesIQ -->
-    <script type="text/javascript" id="VisitorTracking">
+    <script type="text/javascript" id="zsiqchat">
       var $zoho = $zoho || {};
       $zoho.salesiq = $zoho.salesiq || {
         widgetcode:
-          "35074a07bf996fd88e4ad7bf8493642fb081008ce54deb21426241464ccb8de2d075f5a1390755f53a6849185aa83b0e",
+          "93210c756ea31b2224df734860e5d813b081008ce54deb21426241464ccb8de2e6558490d76d66086d0b48b1ed4abff0",
         values: {},
-        ready: function () {
-          $zoho.salesiq.floatbutton.visible("hide");
-        },
+        ready: function () {},
       };
       var d = document;
       s = d.createElement("script");
@@ -1229,29 +1227,6 @@
       s.src = "https://salesiq.zoho.com/widget";
       t = d.getElementsByTagName("script")[0];
       t.parentNode.insertBefore(s, t);
-      function trackVisitor() {
-        try {
-          if ($zoho) {
-            var LDTuvidObj =
-              document.forms["WebToLeads3505252000006603078"]["LDTuvid"];
-            if (LDTuvidObj) {
-              LDTuvidObj.value = $zoho.salesiq.visitor.uniqueid();
-            }
-            var firstnameObj =
-              document.forms["WebToLeads3505252000006603078"]["First Name"];
-            if (firstnameObj) {
-              name = firstnameObj.value + " " + name;
-            }
-            $zoho.salesiq.visitor.name(name);
-            var emailObj =
-              document.forms["WebToLeads3505252000006603078"]["Email"];
-            if (emailObj) {
-              email = emailObj.value;
-              $zoho.salesiq.visitor.email(email);
-            }
-          }
-        } catch (e) {}
-      }
     </script>
     <!-- Alpine -->
     <script
