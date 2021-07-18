@@ -1,0 +1,1801 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Privacy Policy</title>
+  </head>
+  <body>
+    <header>
+      <div class="w-full text-gray-700 bg-white">
+        <div
+          x-data="{ open: false }"
+          class="
+            flex flex-col
+            max-w-screen-xl
+            px-4
+            mx-auto
+            md:items-center md:justify-between md:flex-row md:px-6
+            lg:px-8
+          "
+        >
+          <div class="p-4 flex flex-row items-center justify-between">
+            <a
+              href="#"
+              class="
+                text-lg
+                font-semibold
+                tracking-widest
+                text-gray-900
+                uppercase
+                rounded-lg
+                focus:outline-none focus:shadow-outline
+              "
+              ><img
+                src="assets/logo-colored.svg"
+                alt="logo-colored"
+                class="w-80 h-20"
+            /></a>
+            <button
+              class="
+                md:hidden
+                rounded-lg
+                focus:outline-none focus:shadow-outline
+              "
+              @click="open = !open"
+            >
+              <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+                <path
+                  x-show="!open"
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+                <path
+                  x-show="open"
+                  fill-rule="evenodd"
+                  d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <nav
+            :class="{'flex': open, 'hidden': !open}"
+            class="
+              flex-col flex-grow
+              pb-4
+              md:pb-0
+              hidden
+              md:flex md:justify-end md:flex-row
+            "
+          >
+            <a
+              class="
+                px-4
+                py-2
+                mt-2
+                text-lg text-sm
+                font-semibold
+                bg-transparent
+                rounded-lg
+                md:mt-0 md:ml-4
+                hover:text-gray-900
+                focus:text-gray-900
+                hover:bg-gray-200
+                focus:bg-gray-200 focus:outline-none focus:shadow-outline
+              "
+              href="#"
+              >Home</a
+            >
+            <a
+              class="
+                px-4
+                py-2
+                mt-2
+                text-lg
+                font-semibold
+                bg-transparent
+                rounded-lg
+                md:mt-0 md:ml-4
+                hover:text-gray-900
+                focus:text-gray-900
+                hover:bg-gray-200
+                focus:bg-gray-200 focus:outline-none focus:shadow-outline
+              "
+              href="#"
+              >Blog</a
+            >
+            <a
+              class="
+                px-4
+                py-2
+                mt-2
+                text-lg
+                font-semibold
+                bg-transparent
+                rounded-lg
+                md:mt-0 md:ml-4
+                hover:text-gray-900
+                focus:text-gray-900
+                hover:bg-gray-200
+                focus:bg-gray-200 focus:outline-none focus:shadow-outline
+              "
+              href="#"
+              >Privacy Policy
+            </a>
+            <a
+              class="
+                px-4
+                py-2
+                mt-2
+                text-xl text-white
+                font-semibold
+                bg-pink-500
+                border-black
+                rounded-2xl
+                md:mt-0 md:ml-4
+                focus:bg-pink-500 focus:outline-none focus:shadow-outline
+              "
+              href="#contact"
+              >Book an Appointment</a
+            >
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="flex-1">
+      <div
+        class="
+          mx-auto
+          container
+          pt-14
+          lg:pt-28
+          pb-20
+          px-4
+          xl:px-12
+          2xl:px-4
+          pt-28
+          lg:pb-40
+        "
+      >
+        <h1
+          class="
+            ls-6
+            mb-4
+            xl:leading-snug
+            text-center text-4xl
+            lg:text-7xl
+            xl:text-8xl
+            font-black
+            text-gray-900
+            dark:text-gray-50
+            uppercase
+          "
+        >
+          <span class="blog-hero-tailwind bg-clip-text t-f-c ls-1 inline-block"
+            >Terms &amp; Conditions</span
+          >
+        </h1>
+        <div
+          class="
+            px-8
+            md:px-16
+            bg-gray-100
+            dark:bg-gray-800
+            border-2
+            rounded-xl
+            border-gray-100
+            dark:border-gray-800
+          "
+        >
+        <h2
+          class="
+            mt-20
+            mb-12
+            text-5xl
+            font-black
+            leading-10
+            text-gray-800
+            dark:text-gray-50
+            uppercase
+          "
+        >
+          Terms of service
+        </h2>
+        <div
+          class="
+            px-8
+            md:px-16
+            py-6
+            md:py-12
+            bg-gray-100
+            dark:bg-gray-800
+            border-2
+            rounded-xl
+            border-gray-100
+            dark:border-gray-800
+          "
+        >
+          <h3
+            class="
+              mb-5
+              text-2xl
+              md:text-4xl
+              font-bold
+              leading-9
+              text-gray-800
+              dark:text-gray-50
+            "
+          >
+            General Terms
+          </h3>
+          <div class="w-full">
+            <div class="mb-8">
+              <p
+                class="
+                  italic
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                Please review our terms of use.
+              </p>
+            </div>
+            <div>
+              <h3 class="text-2xl font-bold text-gray-800 pb-2">
+                General Terms
+              </h3>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                By accessing and placing an order with Tailwind UI Kit
+                (AlphaSquad, Inc), you confirm that you are in agreement with
+                and bound by the terms and conditions contained in the Terms Of
+                Use outlined below. These terms apply to the entire website and
+                any email or other type of communication between you and
+                AlphaSquad.
+              </p>
+              <br /><br />
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                Under no circumstances shall AlphaSquad team be liable for any
+                direct, indirect, special, incidental or consequential damages,
+                including, but not limited to, loss of data or profit, arising
+                out of the use, or the inability to use, the materials on this
+                site, even if AlphaSquad team or an authorized representative
+                has been advised of the possibility of such damages. If your use
+                of materials from this site results in the need for servicing,
+                repair or correction of equipment or data, you assume any costs
+                thereof.
+              </p>
+              <br /><br />
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                AlphaSquad will not be responsible for any outcome that may
+                occur during the course of usage of our resources. We reserve
+                the rights to change prices and revise the resources usage
+                policy in any moment.
+              </p>
+              <h3 class="text-2xl font-bold text-gray-800 pb-2">Products</h3>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                All products and services are delivered by AlphaSquad. You can
+                access your download from your dashboard.
+              </p>
+              <h3 class="text-2xl font-bold text-gray-800 pb-2">Security</h3>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                AlphaSquad does not process any order payments through the
+                website. All payments are processed securely through Gumroad, a
+                third party online payment provider.
+              </p>
+              <h3 class="text-2xl font-bold text-gray-800 pb-2">
+                Cookie Policy
+              </h3>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                A cookie is a file containing an identifier (a string of letters
+                and numbers) that is sent by a web server to a web browser and
+                is stored by the browser. The identifier is then sent back to
+                the server each time the browser requests a page from the
+                server. Our website uses cookies. By using our website and
+                agreeing to this policy, you consent to our use of cookies in
+                accordance with the terms of this policy.
+              </p>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                We use session cookies to personalize the website for each user.
+                We use persistent cookies to keep track of referrals coming from
+                our affiliate network.
+              </p>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                We use Google Analytics to analyze the use of our website. Our
+                analytics service provider generates statistical and other
+                information about website use by means of cookies. Our analytics
+                service provider's privacy policy is available at:<a
+                  class="cursor-pointer text-indigo-500 break-all"
+                  href="http://www.google.com/policies/privacy/."
+                  >http://www.google.com/policies/privacy/.</a
+                >
+              </p>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                Deleting cookies will have a negative impact on the usability of
+                the site. If you block cookies, you will not be able to use all
+                the features on our website.
+              </p>
+              <h3 class="text-2xl font-bold text-gray-800 pb-2">Payments</h3>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                We process all of our payments through Gumroad. Gumroad is fully
+                compliant with OFAC regulations, restricting shoppers from the
+                following countries from placing orders.
+              </p>
+              <ul>
+                <li
+                  class="
+                    relative
+                    pl-6
+                    md:text-xl md:leading-loose
+                    text-gray-700
+                    dark:text-gray-300
+                    w-11/12
+                  "
+                >
+                  <div
+                    class="
+                      h-2
+                      w-2
+                      rounded-full
+                      bg-gray-500
+                      absolute
+                      left-0
+                      mt-3
+                    "
+                  ></div>
+                  The Republic of Cuba
+                </li>
+                <li
+                  class="
+                    relative
+                    pl-6
+                    md:text-xl md:leading-loose
+                    text-gray-700
+                    dark:text-gray-300
+                    w-11/12
+                  "
+                >
+                  <div
+                    class="
+                      h-2
+                      w-2
+                      rounded-full
+                      bg-gray-500
+                      absolute
+                      left-0
+                      mt-3
+                    "
+                  ></div>
+                  The Islamic Republic of Iran
+                </li>
+                <li
+                  class="
+                    relative
+                    pl-6
+                    md:text-xl md:leading-loose
+                    text-gray-700
+                    dark:text-gray-300
+                    w-11/12
+                  "
+                >
+                  <div
+                    class="
+                      h-2
+                      w-2
+                      rounded-full
+                      bg-gray-500
+                      absolute
+                      left-0
+                      mt-3
+                    "
+                  ></div>
+                  The State of Libya
+                </li>
+                <li
+                  class="
+                    relative
+                    pl-6
+                    md:text-xl md:leading-loose
+                    text-gray-700
+                    dark:text-gray-300
+                    w-11/12
+                  "
+                >
+                  <div
+                    class="
+                      h-2
+                      w-2
+                      rounded-full
+                      bg-gray-500
+                      absolute
+                      left-0
+                      mt-3
+                    "
+                  ></div>
+                  The Republic of Sudan
+                </li>
+                <li
+                  class="
+                    relative
+                    pl-6
+                    md:text-xl md:leading-loose
+                    text-gray-700
+                    dark:text-gray-300
+                    w-11/12
+                  "
+                >
+                  <div
+                    class="
+                      h-2
+                      w-2
+                      rounded-full
+                      bg-gray-500
+                      absolute
+                      left-0
+                      mt-3
+                    "
+                  ></div>
+                  The Syrian Arab Republic
+                </li>
+                <li
+                  class="
+                    relative
+                    pl-6
+                    md:text-xl md:leading-loose
+                    text-gray-700
+                    dark:text-gray-300
+                    w-11/12
+                  "
+                >
+                  <div
+                    class="
+                      h-2
+                      w-2
+                      rounded-full
+                      bg-gray-500
+                      absolute
+                      left-0
+                      mt-3
+                    "
+                  ></div>
+                  The Democratic People's Republic of Korea
+                </li>
+              </ul>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                The list of countries can be updated without any notice at any
+                moment by OFAC and will be applied immediately. Check the
+                official OFAC website for the latest updates.
+              </p>
+              <h3 class="text-2xl font-bold text-gray-800 pb-2">Ownership</h3>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                Ownership of the product is governed by the usage license
+                selected by the seller.
+              </p>
+              <h3 class="text-2xl font-bold text-gray-800 pb-2">
+                Changes about terms
+              </h3>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                If we change our terms of use we will post those changes on this
+                page. Registered users will be sent an email that outlines
+                changes made to the terms of use.
+              </p>
+              <h3 class="text-2xl font-bold text-gray-800 pb-2">Do No Harm</h3>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                Most software today is developed with little to no thought of
+                how it will be used, or the consequences for our society and
+                planet.
+              </p>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                As software developers, we engineer the infrastructure of the
+                21st century. We recognize that our infrastructure has great
+                power to shape the world and the lives of those we share it
+                with, and we choose to consciously take responsibility for the
+                social and environmental impacts of what we build.
+              </p>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                We envisage a world free from injustice, inequality, and the
+                reckless destruction of lives and our planet. We reject slavery
+                in all its forms, whether by force, indebtedness, or by
+                algorithms that hack human vulnerabilities. We seek a world
+                where humankind is at peace with our neighbors, nature, and
+                ourselves. We want our work to enrich the physical, mental and
+                spiritual wellbeing of all society.
+              </p>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                We build software to further this vision of a just world, or at
+                the very least, to not put that vision further from reach.
+              </p>
+              <h3 class="text-2xl font-bold text-gray-800 pb-2">Terms</h3>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                <span class="italic">Copyright (c) (year) (owner).</span> All
+                rights reserved. Redistribution and use in source and binary
+                forms, with or without modification, are permitted provided that
+                the following conditions are met:
+              </p>
+              <ul>
+                <li
+                  class="
+                    relative
+                    pl-6
+                    md:text-xl md:leading-loose
+                    text-gray-700
+                    dark:text-gray-300
+                    w-11/12
+                  "
+                >
+                  <div
+                    class="
+                      h-2
+                      w-2
+                      rounded-full
+                      bg-gray-500
+                      absolute
+                      left-0
+                      mt-3
+                    "
+                  ></div>
+                  Redistributions of source code must retain the above copyright
+                  notice, this list of conditions and the following disclaimer.
+                </li>
+                <li
+                  class="
+                    relative
+                    pl-6
+                    md:text-xl md:leading-loose
+                    text-gray-700
+                    dark:text-gray-300
+                    w-11/12
+                  "
+                >
+                  <div
+                    class="
+                      h-2
+                      w-2
+                      rounded-full
+                      bg-gray-500
+                      absolute
+                      left-0
+                      mt-3
+                    "
+                  ></div>
+                  Redistributions in binary form must reproduce the above
+                  copyright notice, this list of conditions and the following
+                  disclaimer in the documentation and/or other materials
+                  provided with the distribution.
+                </li>
+                <li
+                  class="
+                    relative
+                    pl-6
+                    md:text-xl md:leading-loose
+                    text-gray-700
+                    dark:text-gray-300
+                    w-11/12
+                  "
+                >
+                  <div
+                    class="
+                      h-2
+                      w-2
+                      rounded-full
+                      bg-gray-500
+                      absolute
+                      left-0
+                      mt-3
+                    "
+                  ></div>
+                  Neither the name of the copyright holder nor the names of its
+                  contributors may be used to endorse or promote products
+                  derived from this software without specific prior written
+                  permission.
+                </li>
+                <li
+                  class="
+                    relative
+                    pl-6
+                    md:text-xl md:leading-loose
+                    text-gray-700
+                    dark:text-gray-300
+                    w-11/12
+                  "
+                >
+                  <div
+                    class="
+                      h-2
+                      w-2
+                      rounded-full
+                      bg-gray-500
+                      absolute
+                      left-0
+                      mt-3
+                    "
+                  ></div>
+                  This software must not be used by any organization, website,
+                  product or service that:
+                  <ul>
+                    <li
+                      class="
+                        relative
+                        pl-6
+                        md:text-xl md:leading-loose
+                        text-gray-700
+                        dark:text-gray-300
+                        w-11/12
+                        mt-4
+                      "
+                    >
+                      <div
+                        class="
+                          h-2
+                          w-2
+                          rounded-full
+                          bg-gray-500
+                          absolute
+                          left-0
+                          mt-3
+                        "
+                      ></div>
+                      lobbies for, promotes, or derives a majority of income
+                      from actions that support or contribute to:
+                      <ul>
+                        <li
+                          class="
+                            relative
+                            pl-6
+                            md:text-xl md:leading-loose
+                            text-gray-700
+                            dark:text-gray-300
+                            w-11/12
+                            mt-4
+                          "
+                        >
+                          <div
+                            class="
+                              h-2
+                              w-2
+                              rounded-full
+                              bg-gray-500
+                              absolute
+                              left-0
+                              mt-3
+                            "
+                          ></div>
+                          sex trafficking
+                        </li>
+                        <li
+                          class="
+                            relative
+                            pl-6
+                            md:text-xl md:leading-loose
+                            text-gray-700
+                            dark:text-gray-300
+                            w-11/12
+                          "
+                        >
+                          <div
+                            class="
+                              h-2
+                              w-2
+                              rounded-full
+                              bg-gray-500
+                              absolute
+                              left-0
+                              mt-3
+                            "
+                          ></div>
+                          human trafficking
+                        </li>
+                        <li
+                          class="
+                            relative
+                            pl-6
+                            md:text-xl md:leading-loose
+                            text-gray-700
+                            dark:text-gray-300
+                            w-11/12
+                          "
+                        >
+                          <div
+                            class="
+                              h-2
+                              w-2
+                              rounded-full
+                              bg-gray-500
+                              absolute
+                              left-0
+                              mt-3
+                            "
+                          ></div>
+                          slavery
+                        </li>
+                        <li
+                          class="
+                            relative
+                            pl-6
+                            md:text-xl md:leading-loose
+                            text-gray-700
+                            dark:text-gray-300
+                            w-11/12
+                          "
+                        >
+                          <div
+                            class="
+                              h-2
+                              w-2
+                              rounded-full
+                              bg-gray-500
+                              absolute
+                              left-0
+                              mt-3
+                            "
+                          ></div>
+                          indentured servitude
+                        </li>
+                        <li
+                          class="
+                            relative
+                            pl-6
+                            md:text-xl md:leading-loose
+                            text-gray-700
+                            dark:text-gray-300
+                            w-11/12
+                          "
+                        >
+                          <div
+                            class="
+                              h-2
+                              w-2
+                              rounded-full
+                              bg-gray-500
+                              absolute
+                              left-0
+                              mt-3
+                            "
+                          ></div>
+                          gambling
+                        </li>
+                        <li
+                          class="
+                            relative
+                            pl-6
+                            md:text-xl md:leading-loose
+                            text-gray-700
+                            dark:text-gray-300
+                            w-11/12
+                          "
+                        >
+                          <div
+                            class="
+                              h-2
+                              w-2
+                              rounded-full
+                              bg-gray-500
+                              absolute
+                              left-0
+                              mt-3
+                            "
+                          ></div>
+                          tobacco
+                        </li>
+                        <li
+                          class="
+                            relative
+                            pl-6
+                            md:text-xl md:leading-loose
+                            text-gray-700
+                            dark:text-gray-300
+                            w-11/12
+                          "
+                        >
+                          <div
+                            class="
+                              h-2
+                              w-2
+                              rounded-full
+                              bg-gray-500
+                              absolute
+                              left-0
+                              mt-3
+                            "
+                          ></div>
+                          adversely addictive behaviors
+                        </li>
+                        <li
+                          class="
+                            relative
+                            pl-6
+                            md:text-xl md:leading-loose
+                            text-gray-700
+                            dark:text-gray-300
+                            w-11/12
+                          "
+                        >
+                          <div
+                            class="
+                              h-2
+                              w-2
+                              rounded-full
+                              bg-gray-500
+                              absolute
+                              left-0
+                              mt-3
+                            "
+                          ></div>
+                          nuclear energy
+                        </li>
+                        <li
+                          class="
+                            relative
+                            pl-6
+                            md:text-xl md:leading-loose
+                            text-gray-700
+                            dark:text-gray-300
+                            w-11/12
+                          "
+                        >
+                          <div
+                            class="
+                              h-2
+                              w-2
+                              rounded-full
+                              bg-gray-500
+                              absolute
+                              left-0
+                              mt-3
+                            "
+                          ></div>
+                          warfare
+                        </li>
+                        <li
+                          class="
+                            relative
+                            pl-6
+                            md:text-xl md:leading-loose
+                            text-gray-700
+                            dark:text-gray-300
+                            w-11/12
+                          "
+                        >
+                          <div
+                            class="
+                              h-2
+                              w-2
+                              rounded-full
+                              bg-gray-500
+                              absolute
+                              left-0
+                              mt-3
+                            "
+                          ></div>
+                          weapons manufacturing
+                        </li>
+                        <li
+                          class="
+                            relative
+                            pl-6
+                            md:text-xl md:leading-loose
+                            text-gray-700
+                            dark:text-gray-300
+                            w-11/12
+                          "
+                        >
+                          <div
+                            class="
+                              h-2
+                              w-2
+                              rounded-full
+                              bg-gray-500
+                              absolute
+                              left-0
+                              mt-3
+                            "
+                          ></div>
+                          war crimes
+                        </li>
+                        <li
+                          class="
+                            relative
+                            pl-6
+                            md:text-xl md:leading-loose
+                            text-gray-700
+                            dark:text-gray-300
+                            w-11/12
+                          "
+                        >
+                          <div
+                            class="
+                              h-2
+                              w-2
+                              rounded-full
+                              bg-gray-500
+                              absolute
+                              left-0
+                              mt-3
+                            "
+                          ></div>
+                          violence (except when required to protect public
+                          safety)
+                        </li>
+                        <li
+                          class="
+                            relative
+                            pl-6
+                            md:text-xl md:leading-loose
+                            text-gray-700
+                            dark:text-gray-300
+                            w-11/12
+                          "
+                        >
+                          <div
+                            class="
+                              h-2
+                              w-2
+                              rounded-full
+                              bg-gray-500
+                              absolute
+                              left-0
+                              mt-3
+                            "
+                          ></div>
+                          burning of forests
+                        </li>
+                        <li
+                          class="
+                            relative
+                            pl-6
+                            md:text-xl md:leading-loose
+                            text-gray-700
+                            dark:text-gray-300
+                            w-11/12
+                          "
+                        >
+                          <div
+                            class="
+                              h-2
+                              w-2
+                              rounded-full
+                              bg-gray-500
+                              absolute
+                              left-0
+                              mt-3
+                            "
+                          ></div>
+                          deforestation
+                        </li>
+                        <li
+                          class="
+                            relative
+                            pl-6
+                            md:text-xl md:leading-loose
+                            text-gray-700
+                            dark:text-gray-300
+                            w-11/12
+                          "
+                        >
+                          <div
+                            class="
+                              h-2
+                              w-2
+                              rounded-full
+                              bg-gray-500
+                              absolute
+                              left-0
+                              mt-3
+                            "
+                          ></div>
+                          hate speech or discrimination based on age, gender,
+                          gender identity, race, sexuality, religion,
+                          nationality
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      class="
+                        relative
+                        pl-6
+                        md:text-xl md:leading-loose
+                        text-gray-700
+                        dark:text-gray-300
+                        w-11/12
+                        mt-4
+                      "
+                    >
+                      <div
+                        class="
+                          h-2
+                          w-2
+                          rounded-full
+                          bg-gray-500
+                          absolute
+                          left-0
+                          mt-3
+                        "
+                      ></div>
+                      lobbies against, or derives a majority of income from
+                      actions that discourage or frustrate:
+                      <ul>
+                        <li
+                          class="
+                            relative
+                            pl-6
+                            md:text-xl md:leading-loose
+                            text-gray-700
+                            dark:text-gray-300
+                            w-11/12
+                            mt-4
+                          "
+                        >
+                          <div
+                            class="
+                              h-2
+                              w-2
+                              rounded-full
+                              bg-gray-500
+                              absolute
+                              left-0
+                              mt-3
+                            "
+                          ></div>
+                          peace
+                        </li>
+                        <li
+                          class="
+                            relative
+                            pl-6
+                            md:text-xl md:leading-loose
+                            text-gray-700
+                            dark:text-gray-300
+                            w-11/12
+                          "
+                        >
+                          <div
+                            class="
+                              h-2
+                              w-2
+                              rounded-full
+                              bg-gray-500
+                              absolute
+                              left-0
+                              mt-3
+                            "
+                          ></div>
+                          access to the rights set out in the Universal
+                          Declaration of Human Rights and the Convention on the
+                          Rights of the Child
+                        </li>
+                        <li
+                          class="
+                            relative
+                            pl-6
+                            md:text-xl md:leading-loose
+                            text-gray-700
+                            dark:text-gray-300
+                            w-11/12
+                          "
+                        >
+                          <div
+                            class="
+                              h-2
+                              w-2
+                              rounded-full
+                              bg-gray-500
+                              absolute
+                              left-0
+                              mt-3
+                            "
+                          ></div>
+                          peaceful assembly and association (including worker
+                          associations)
+                        </li>
+                        <li
+                          class="
+                            relative
+                            pl-6
+                            md:text-xl md:leading-loose
+                            text-gray-700
+                            dark:text-gray-300
+                            w-11/12
+                          "
+                        >
+                          <div
+                            class="
+                              h-2
+                              w-2
+                              rounded-full
+                              bg-gray-500
+                              absolute
+                              left-0
+                              mt-3
+                            "
+                          ></div>
+                          a safe environment or action to curtail the use of
+                          fossil fuels or prevent climate change
+                        </li>
+                        <li
+                          class="
+                            relative
+                            pl-6
+                            md:text-xl md:leading-loose
+                            text-gray-700
+                            dark:text-gray-300
+                            w-11/12
+                          "
+                        >
+                          <div
+                            class="
+                              h-2
+                              w-2
+                              rounded-full
+                              bg-gray-500
+                              absolute
+                              left-0
+                              mt-3
+                            "
+                          ></div>
+                          democratic processes
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li
+                  class="
+                    relative
+                    pl-6
+                    md:text-xl md:leading-loose
+                    text-gray-700
+                    dark:text-gray-300
+                    w-11/12
+                  "
+                >
+                  <div
+                    class="
+                      h-2
+                      w-2
+                      rounded-full
+                      bg-gray-500
+                      absolute
+                      left-0
+                      mt-3
+                    "
+                  ></div>
+                  All redistribution of source code or binary form, including
+                  any modifications must be under these terms. You must inform
+                  recipients that the code is governed by these conditions, and
+                  how they can obtain a copy of this license. You may not
+                  attempt to alter the conditions of who may/may not use this
+                  software.
+                </li>
+              </ul>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                We define:
+              </p>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                Forests to be 0.5 or more hectares of trees that were either
+                planted more than 50 years ago or were not planted by humans or
+                human-made equipment.
+              </p>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                Deforestation to be the clearing, burning or destruction of 0.5
+                or more hectares of forests within a 1 year period.
+              </p>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
+                CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+                INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+                MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+                DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR
+                CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+                SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+                LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF
+                USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+                AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+                LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+                IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+                THE POSSIBILITY OF SUCH DAMAGE.
+              </p>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                Attribution
+              </p>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                  break-all
+                "
+              >
+                Do No Harm License Contributor Covenant, (pre 1.0), available at
+                https://github.com/raisely/NoHarm
+              </p>
+            </div>
+          </div>
+        </div>
+        <h2
+          id="privacyPolicy"
+          style="margin-top: -85px; padding-top: 165px; display: inline-block"
+          class="
+            mb-12
+            text-5xl
+            font-black
+            leading-10
+            text-gray-800
+            dark:text-gray-50
+            uppercase
+          "
+        >
+          Our Privacy Policy
+        </h2>
+        <div
+          class="
+            px-8
+            md:px-16
+            py-6
+            md:py-12
+            bg-gray-100
+            dark:bg-gray-800
+            border-2
+            rounded-xl
+            border-gray-100
+            dark:border-gray-800
+          "
+        >
+          <h3
+            class="
+              mb-5
+              text-2xl
+              md:text-4xl
+              font-bold
+              leading-9
+              text-gray-800
+              dark:text-gray-50
+            "
+          >
+            General Rules
+          </h3>
+          <div class="w-full">
+            <p
+              class="
+                md:text-xl md:leading-loose
+                text-gray-700
+                dark:text-gray-300
+                w-11/12
+              "
+            >
+              AlphaSquad does not share personal information of any kind with
+              anyone. We will not sell or rent your name or personal information
+              to any third party. We do not sell, rent or provide outside access
+              to our mailing list or any data we store. Any data that a user
+              stores via our facilities is wholly owned by that user or
+              business. At any time a user or business is free to take their
+              data and leave, or to simply delete their data from our
+              facilities.
+            </p>
+            <p
+              class="
+                md:text-xl md:leading-loose
+                text-gray-700
+                dark:text-gray-300
+                w-11/12
+              "
+            >
+              AlphaSquad only collects such personal information that is
+              necessary for you to access and use our services. This personal
+              information includes, but is not limited to, first and last name,
+              email address.
+            </p>
+            <p
+              class="
+                md:text-xl md:leading-loose
+                text-gray-700
+                dark:text-gray-300
+                w-11/12
+              "
+            >
+              AlphaSquad may release personal information if AlphaSquad is
+              required to by law, search warrant, subpoena, court order or fraud
+              investigation. We may also use personal information in a manner
+              that does not identify you specifically nor allow you to be
+              contacted but does identify certain criteria about our Site's
+              users in general (such as we may inform third parties about the
+              number of registered users, number of unique visitors, and the
+              pages most frequently browsed).
+            </p>
+            <h3
+              class="
+                mb-5
+                text-2xl
+                md:text-4xl
+                font-bold
+                leading-9
+                text-gray-800
+                dark:text-gray-50
+                mt-8
+              "
+            >
+              Changes about privacy
+            </h3>
+            <p
+              class="
+                md:text-xl md:leading-loose
+                text-gray-700
+                dark:text-gray-300
+                w-11/12
+              "
+            >
+              If we change our terms of use we will post those changes on this
+              page. Registered users will be sent an email that outlines changes
+              made to the terms of use.
+            </p>
+          </div>
+        </div>
+        <h2
+          class="
+            mt-20
+            mb-12
+            text-5xl
+            font-black
+            leading-10
+            text-gray-800
+            dark:text-gray-50
+            uppercase
+          "
+        >
+          Our Support Policy
+        </h2>
+        <div
+          class="
+            px-8
+            md:px-16
+            py-6
+            md:py-12
+            bg-gray-100
+            dark:bg-gray-800
+            border-2
+            rounded-xl
+            border-gray-100
+            dark:border-gray-800
+          "
+        >
+          <h3
+            class="
+              mb-5
+              text-2xl
+              md:text-4xl
+              font-bold
+              leading-9
+              text-gray-800
+              dark:text-gray-50
+            "
+          >
+            General Rules
+          </h3>
+          <div class="w-full">
+            <p
+              class="
+                md:text-xl md:leading-loose
+                text-gray-700
+                dark:text-gray-300
+                w-11/12
+              "
+            >
+              We endeavor to deliver top-notch products and superiorcustomer
+              support.
+            </p>
+            <div>
+              <ul>
+                <li class="relative text-2xl font-bold text-gray-800 mb-4">
+                  WE OFFER SUPPORT FOR:
+                  <ul>
+                    <li
+                      class="
+                        relative
+                        pl-6
+                        md:text-xl md:leading-loose
+                        text-gray-700
+                        dark:text-gray-300
+                        w-11/12
+                      "
+                    >
+                      <div
+                        class="
+                          h-2
+                          w-2
+                          rounded-full
+                          bg-gray-500
+                          absolute
+                          left-0
+                          mt-3
+                        "
+                      ></div>
+                      Helping you use the features within our product
+                    </li>
+                    <li
+                      class="
+                        relative
+                        pl-6
+                        md:text-xl md:leading-loose
+                        text-gray-700
+                        dark:text-gray-300
+                        w-11/12
+                      "
+                    >
+                      <div
+                        class="
+                          h-2
+                          w-2
+                          rounded-full
+                          bg-gray-500
+                          absolute
+                          left-0
+                          mt-3
+                        "
+                      ></div>
+                      Bug fixes – if you discovered bug in your downloaded
+                      product we will fix it
+                    </li>
+                    <li
+                      class="
+                        relative
+                        pl-6
+                        md:text-xl md:leading-loose
+                        text-gray-700
+                        dark:text-gray-300
+                        w-11/12
+                      "
+                    >
+                      <div
+                        class="
+                          h-2
+                          w-2
+                          rounded-full
+                          bg-gray-500
+                          absolute
+                          left-0
+                          mt-3
+                        "
+                      ></div>
+                      Functionalities which do not work as advertised — we will
+                      fix them as soon as we find out from you that there might
+                      be something wrong
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="relative text-2xl font-bold text-gray-800 mb-4">
+                  WE DO NOT:
+                  <ul>
+                    <li
+                      class="
+                        relative
+                        pl-6
+                        md:text-xl md:leading-loose
+                        text-gray-700
+                        dark:text-gray-300
+                        w-11/12
+                      "
+                    >
+                      <div
+                        class="
+                          h-2
+                          w-2
+                          rounded-full
+                          bg-gray-500
+                          absolute
+                          left-0
+                          mt-3
+                        "
+                      ></div>
+                      Offer Support for third party plugins compatibility – We
+                      try our best to make our templates compatible with most of
+                      the popular plugins but it’s not always possible to make
+                      it compatible with every plugin or update out there.
+                    </li>
+                    <li
+                      class="
+                        relative
+                        pl-6
+                        md:text-xl md:leading-loose
+                        text-gray-700
+                        dark:text-gray-300
+                        w-11/12
+                      "
+                    >
+                      <div
+                        class="
+                          h-2
+                          w-2
+                          rounded-full
+                          bg-gray-500
+                          absolute
+                          left-0
+                          mt-3
+                        "
+                      ></div>
+                      Customize you theme according to your design – For custom
+                      development needs, contact us.
+                    </li>
+                    <li
+                      class="
+                        relative
+                        pl-6
+                        md:text-xl md:leading-loose
+                        text-gray-700
+                        dark:text-gray-300
+                        w-11/12
+                      "
+                    >
+                      <div
+                        class="
+                          h-2
+                          w-2
+                          rounded-full
+                          bg-gray-500
+                          absolute
+                          left-0
+                          mt-3
+                        "
+                      ></div>
+                      Fix hosting, server environment, or software issues.
+                    </li>
+                    <li
+                      class="
+                        relative
+                        pl-6
+                        md:text-xl md:leading-loose
+                        text-gray-700
+                        dark:text-gray-300
+                        w-11/12
+                      "
+                    >
+                      <div
+                        class="
+                          h-2
+                          w-2
+                          rounded-full
+                          bg-gray-500
+                          absolute
+                          left-0
+                          mt-3
+                        "
+                      ></div>
+                      Schedule a specific time to offer support and use screen
+                      sharing applications.
+                    </li>
+                    <li
+                      class="
+                        relative
+                        pl-6
+                        md:text-xl md:leading-loose
+                        text-gray-700
+                        dark:text-gray-300
+                        w-11/12
+                      "
+                    >
+                      <div
+                        class="
+                          h-2
+                          w-2
+                          rounded-full
+                          bg-gray-500
+                          absolute
+                          left-0
+                          mt-3
+                        "
+                      ></div>
+                      Take responsibility in case any issues arise from your
+                      changes to the theme outside the functionalities provided
+                      by us.
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                <b
+                  >We do not offer human-based support for our free products.</b
+                >
+                If you have a custom question as a user of our free products,
+                first you'll need to subscribe to one of our plans. However, we
+                aim to keep all our users satisfied with the quality of our
+                products, therefore, we have created documentation to guide you
+                through installing and using our products. Please check the
+                documentation and if you still cannot find your answer, leave a
+                comment on the product page.
+              </p>
+              <p
+                class="
+                  md:text-xl md:leading-loose
+                  text-gray-700
+                  dark:text-gray-300
+                  w-11/12
+                "
+              >
+                When you purchase a Developer license or Team License from
+                AlphaSquad, you are getting 12 months of Premium Support.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      ;
+    </main>
+  </body>
+</html>
