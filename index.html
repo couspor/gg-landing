@@ -151,293 +151,334 @@
       </div>
     </header>
     <!-- Banner -->
-    <section class="relative py-24 px-4">
-      <div
-        class="
-          z-20
-          relative
-          text-black text-4xl
-          float-right
-          flex flex-row
-          align-right
-          mx-auto
-          w-full
-          h-auto
-        "
-      >
-        <form
-          action="https://crm.zoho.com/crm/WebToLeadForm"
-          id="frm1"
-          name="WebToLeads3505252000006603078"
-          method="POST"
-          onSubmit='javascript:document.charset="UTF-8"; return validateCaptcha()'
-          accept-charset="UTF-8"
+    <div class="banner">
+      <div class="lg:hidden">
+        <img src="assets/slide-1-1.jpg" alt="banner" />
+      </div>
+      <section class="flex items-stretch text-white">
+        <div
           class="
-            w-full
-            lg:w-1/4
-            md:w-1/4
-            mx-auto
-            bg-transparent
-            lg:mr-24 lg:-mt-10
-            md:float-none md:mr-15 md:-mt-20
-            sticky
+            lg:flex
+            w-1/2
+            hidden
+            bg-gray-500 bg-no-repeat bg-cover
+            relative
+            items-center
           "
+          style="background-image: url(assets/slide-1-1.jpg)"
         >
-          <input
-            type="text"
-            style="display: none"
-            name="xnQsjsdp"
-            value="17730c4e7d6442ffce68a431e6d754713eb2b12b9ac7777050f2773ec54ed2d2"
-          />
-          <input type="hidden" name="zc_gad" id="zc_gad" value="" />
-          <input
-            type="text"
-            style="display: none"
-            name="xmIwtLD"
-            value="61bba0cba3c8377c6a5dd6a5d5678a3677acff02a778984222db0e3894bbc6db"
-          />
-          <input
-            type="text"
-            style="display: none"
-            name="actionType"
-            value="TGVhZHM="
-          />
-          <input
-            type="text"
-            style="display: none"
-            name="returnURL"
-            value="https://www.garbhagudi-ivf.com/landing/thankyou.html"
-          /><br /><br />
-          <!-- Do not remove this code. -->
-          <input
-            type="text"
-            style="display: none"
-            id="ldeskuid"
-            name="ldeskuid"
-          />
-          <input
-            type="text"
-            style="display: none"
-            id="LDTuvid"
-            name="LDTuvid"
-          />
-          <!-- Do not remove this code. -->
-          <h3
-            class="
-              mb-5
-              text-center text-2xl
-              md:text-2xl
-              font-bold
-              text-gray-800
-            "
-          >
-            Book an Appointment
-          </h3>
-          <div>
-            <div class="flex flex-col mb-3">
+          <div class="absolute inset-0 z-0"></div>
+        </div>
+        <div
+          class="
+            lg:w-1/2
+            w-full
+            flex
+            bg-gray-50
+            items-center
+            justify-center
+            inset-0
+            text-center
+            md:px-16
+            px-0
+            z-0
+          "
+          style="background-image: url(assets/7896.jpg)"
+        >
+          <div class="w-full z-20">
+            <form
+              action="https://crm.zoho.com/crm/WebToLeadForm"
+              id="frm1"
+              name="WebToLeads3505252000006603078"
+              method="POST"
+              onSubmit='javascript:document.charset="UTF-8"; return validateCaptcha()'
+              accept-charset="UTF-8"
+              class="w-full md:w-2/3 mx-auto bg-transparent mb-10"
+            >
               <input
                 type="text"
-                maxlength="80"
-                onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode == 32)"
-                name="Last Name"
-                id="lname"
-                class="
-                  bg-transparent
-                  text-center
-                  px-3
-                  py-2
-                  border border-gray-900
-                  focus:outline-none
-                  rounded-3xl
-                  form-control
-                  text-xl
-                "
-                autocomplete="off"
-                placeholder="Name"
+                style="display: none"
+                name="xnQsjsdp"
+                value="17730c4e7d6442ffce68a431e6d754713eb2b12b9ac7777050f2773ec54ed2d2"
               />
-            </div>
-            <div class="flex flex-col mb-3">
+              <input type="hidden" name="zc_gad" id="zc_gad" value="" />
               <input
-                type="email"
-                maxlength="100"
-                name="Email"
-                onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode > 47 && event.charCode < 58) || (event.charCode == 64) || (event.charCode == 46) || ((event.charCode == 95))"
-                id="eml"
-                class="
-                  bg-transparent
-                  text-center
-                  px-3
-                  py-2
-                  border border-gray-900
-                  focus:outline-none
-                  rounded-3xl
-                  form-control
-                  text-xl
-                "
-                autocomplete="off"
-                placeholder="E-mail"
+                type="text"
+                style="display: none"
+                name="xmIwtLD"
+                value="61bba0cba3c8377c6a5dd6a5d5678a3677acff02a778984222db0e3894bbc6db"
               />
-            </div>
-            <div class="flex flex-col mb-3">
               <input
-                ype="text"
-                maxlength="10"
-                onkeypress="return allowOnlyDigits(event)"
-                name="Phone"
-                id="pno"
-                class="
-                  bg-transparent
-                  text-center
-                  px-3
-                  py-2
-                  border border-gray-900
-                  focus:outline-none
-                  rounded-3xl
-                  form-control
-                  text-xl
-                "
-                autocomplete="off"
-                placeholder="Phone Number"
+                type="text"
+                style="display: none"
+                name="actionType"
+                value="TGVhZHM="
               />
-            </div>
-          </div>
-          <div class="hidden">
-            <tr style="display: none">
-              <td
-                style="
-                  word-break: break-word;
-                  text-align: top;
-                  font-size: 12px;
-                  font-family: Arial;
-                  width: 30%;
+              <input
+                type="text"
+                style="display: none"
+                name="returnURL"
+                value="https://www.garbhagudi-ivf.com/landing/thankyou.html"
+              /><br /><br />
+              <!-- Do not remove this code. -->
+              <input
+                type="text"
+                style="display: none"
+                id="ldeskuid"
+                name="ldeskuid"
+              />
+              <input
+                type="text"
+                style="display: none"
+                id="LDTuvid"
+                name="LDTuvid"
+              />
+              <!-- Do not remove this code. -->
+              <h3
+                class="
+                  mb-4
+                  text-center text-2xl
+                  md:text-2xl
+                  font-bold
+                  text-gray-600
                 "
               >
-                Lead Source
-              </td>
-              <td style="width: 40%">
-                <select
-                  style="width: 100%; box-sizing: border-box"
-                  name="Lead Source"
+                Book an Appointment
+              </h3>
+              <div>
+                <div class="flex flex-col mb-3">
+                  <input
+                    type="text"
+                    maxlength="80"
+                    onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode == 32)"
+                    name="Last Name"
+                    id="lname"
+                    class="
+                      text-black text-semibold
+                      bg-transparent
+                      text-center
+                      px-3
+                      py-2
+                      border-2 border-gray-900
+                      focus:outline-none
+                      rounded-3xl
+                      form-control
+                      text-xl
+                    "
+                    autocomplete="off"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="flex flex-col mb-3">
+                  <input
+                    type="email"
+                    maxlength="100"
+                    name="Email"
+                    onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode > 47 && event.charCode < 58) || (event.charCode == 64) || (event.charCode == 46) || ((event.charCode == 95))"
+                    id="eml"
+                    class="
+                      bg-transparent
+                      text-center
+                      px-3
+                      py-2
+                      border-2 border-gray-900
+                      focus:outline-none
+                      rounded-3xl
+                      form-control
+                      text-xl
+                    "
+                    autocomplete="off"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="flex flex-col mb-3">
+                  <input
+                    ype="text"
+                    maxlength="10"
+                    onkeypress="return allowOnlyDigits(event)"
+                    name="Phone"
+                    id="pno"
+                    class="
+                      bg-transparent
+                      text-center
+                      px-3
+                      py-2
+                      border-2 border-gray-900
+                      focus:outline-none
+                      rounded-3xl
+                      form-control
+                      text-xl
+                    "
+                    autocomplete="off"
+                    placeholder="Phone Number"
+                  />
+                </div>
+              </div>
+              <div class="hidden">
+                <tr style="display: none">
+                  <td
+                    style="
+                      word-break: break-word;
+                      text-align: top;
+                      font-size: 12px;
+                      font-family: Arial;
+                      width: 30%;
+                    "
+                  >
+                    Lead Source
+                  </td>
+                  <td style="width: 40%">
+                    <select
+                      style="width: 100%; box-sizing: border-box"
+                      name="Lead Source"
+                    >
+                      <option value="-None-">-None-</option>
+                      <option selected value="Online">Online</option>
+                      <option value="Media">Media</option>
+                      <option value="Listing">Listing</option>
+                      <option value="Referred">Referred</option>
+                      <option value="Camp">Camp</option>
+                      <option value="Sponsor">Sponsor</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr style="display: none">
+                  <td
+                    style="
+                      word-break: break-word;
+                      text-align: top;
+                      font-size: 12px;
+                      font-family: Arial;
+                      width: 30%;
+                    "
+                  >
+                    Lead Sub Source
+                  </td>
+                  <td style="width: 40%">
+                    <select
+                      style="width: 100%; box-sizing: border-box"
+                      name="LEADCF6"
+                    >
+                      <option value="-None-">-None-</option>
+                      <option selected value="GarbhaGudi&#x20;Website">
+                        GarbhaGudi Website
+                      </option>
+                      <option value="Youtube">Youtube</option>
+                      <option value="Geo&#x20;Ads">
+                        Geo Ads &#x28;Ads Media network&#x29;
+                      </option>
+                      <option value="Facebook">Facebook</option>
+                      <option value="Live&#x20;Chat">Live Chat</option>
+                      <option value="Punyahealth">Punyahealth</option>
+                      <option value="Old&#x20;Camps">Old Camps</option>
+                      <option value="Google">Google</option>
+                      <option value="Tiptur&#x20;OPD">Tiptur OPD</option>
+                      <option value="Foore">Foore</option>
+                      <option value="Instagram">Instagram</option>
+                      <option value="Chitradurga&#x20;camp">
+                        Chitradurga camp
+                      </option>
+                      <option value="Doctor&#x20;4&#x20;Africa">
+                        Doctor 4 Africa
+                      </option>
+                      <option value="Television">Television</option>
+                      <option value="Placidway">Placidway</option>
+                      <option value="Radio">Radio</option>
+                      <option value="Theater&#x20;Adds">Theater Adds</option>
+                      <option value="News&#x20;paper">News paper</option>
+                      <option value="Ziffy">Ziffy</option>
+                      <option value="Name&#x20;boards">Name boards</option>
+                      <option value="Quora">Quora</option>
+                      <option value="Practo">Practo</option>
+                      <option value="Just&#x20;Dial">Just Dial</option>
+                      <option value="Clinic&#x20;spot">Clinic spot</option>
+                      <option value="Whatclinic">Whatclinic</option>
+                      <option value="Ovu">Ovu</option>
+                      <option value="EllaWomen">EllaWomen</option>
+                      <option value="Doctor&#x20;Referral">
+                        Doctor Referral
+                      </option>
+                      <option value="Kunigal&#x20;OPD">Kunigal OPD</option>
+                      <option value="GarbhaGudi&#x20;Employee">
+                        GarbhaGudi Employee
+                      </option>
+                      <option value="Friend&#x20;&amp;&#x20;Family">
+                        Friend &amp; Family
+                      </option>
+                      <option value="Camp&#x20;&#x20;-&#x20;Kanakapura">
+                        Camp - Kanakapura
+                      </option>
+                      <option value="KONANKUNTE&#x20;CAMP">
+                        KONANKUNTE CAMP
+                      </option>
+                      <option value="Cure&#x20;consult">Cure consult</option>
+                      <option value="ClinicSpots">ClinicSpots</option>
+                      <option value="lybrate">lybrate</option>
+                      <option value="Doc&#x20;prime">Doc prime</option>
+                      <option value="Ellie&#x20;chat">Ellie chat</option>
+                      <option value="Future&#x20;Care">Future Care</option>
+                      <option value="Others">Others</option>
+                    </select>
+                  </td>
+                </tr>
+              </div>
+              <div class="w-full pt-3">
+                <button
+                  type="submit"
+                  id="formsubmit"
+                  value="Submit"
+                  class="
+                    w-full
+                    border-2 border-gray-900
+                    px-4
+                    py-2
+                    transition
+                    duration-50
+                    focus:outline-none
+                    font-semibold
+                    hover:bg-pink-500 hover:text-black
+                    text-xl
+                    cursor-pointer
+                    rounded-3xl
+                    btn btn-success
+                  "
                 >
-                  <option value="-None-">-None-</option>
-                  <option selected value="Online">Online</option>
-                  <option value="Media">Media</option>
-                  <option value="Listing">Listing</option>
-                  <option value="Referred">Referred</option>
-                  <option value="Camp">Camp</option>
-                  <option value="Sponsor">Sponsor</option>
-                </select>
-              </td>
-            </tr>
-            <tr style="display: none">
-              <td
-                style="
-                  word-break: break-word;
-                  text-align: top;
-                  font-size: 12px;
-                  font-family: Arial;
-                  width: 30%;
-                "
-              >
-                Lead Sub Source
-              </td>
-              <td style="width: 40%">
-                <select
-                  style="width: 100%; box-sizing: border-box"
-                  name="LEADCF6"
-                >
-                  <option value="-None-">-None-</option>
-                  <option selected value="GarbhaGudi&#x20;Website">
-                    GarbhaGudi Website
-                  </option>
-                  <option value="Youtube">Youtube</option>
-                  <option value="Geo&#x20;Ads">
-                    Geo Ads &#x28;Ads Media network&#x29;
-                  </option>
-                  <option value="Facebook">Facebook</option>
-                  <option value="Live&#x20;Chat">Live Chat</option>
-                  <option value="Punyahealth">Punyahealth</option>
-                  <option value="Old&#x20;Camps">Old Camps</option>
-                  <option value="Google">Google</option>
-                  <option value="Tiptur&#x20;OPD">Tiptur OPD</option>
-                  <option value="Foore">Foore</option>
-                  <option value="Instagram">Instagram</option>
-                  <option value="Chitradurga&#x20;camp">
-                    Chitradurga camp
-                  </option>
-                  <option value="Doctor&#x20;4&#x20;Africa">
-                    Doctor 4 Africa
-                  </option>
-                  <option value="Television">Television</option>
-                  <option value="Placidway">Placidway</option>
-                  <option value="Radio">Radio</option>
-                  <option value="Theater&#x20;Adds">Theater Adds</option>
-                  <option value="News&#x20;paper">News paper</option>
-                  <option value="Ziffy">Ziffy</option>
-                  <option value="Name&#x20;boards">Name boards</option>
-                  <option value="Quora">Quora</option>
-                  <option value="Practo">Practo</option>
-                  <option value="Just&#x20;Dial">Just Dial</option>
-                  <option value="Clinic&#x20;spot">Clinic spot</option>
-                  <option value="Whatclinic">Whatclinic</option>
-                  <option value="Ovu">Ovu</option>
-                  <option value="EllaWomen">EllaWomen</option>
-                  <option value="Doctor&#x20;Referral">Doctor Referral</option>
-                  <option value="Kunigal&#x20;OPD">Kunigal OPD</option>
-                  <option value="GarbhaGudi&#x20;Employee">
-                    GarbhaGudi Employee
-                  </option>
-                  <option value="Friend&#x20;&amp;&#x20;Family">
-                    Friend &amp; Family
-                  </option>
-                  <option value="Camp&#x20;&#x20;-&#x20;Kanakapura">
-                    Camp - Kanakapura
-                  </option>
-                  <option value="KONANKUNTE&#x20;CAMP">KONANKUNTE CAMP</option>
-                  <option value="Cure&#x20;consult">Cure consult</option>
-                  <option value="ClinicSpots">ClinicSpots</option>
-                  <option value="lybrate">lybrate</option>
-                  <option value="Doc&#x20;prime">Doc prime</option>
-                  <option value="Ellie&#x20;chat">Ellie chat</option>
-                  <option value="Future&#x20;Care">Future Care</option>
-                  <option value="Others">Others</option>
-                </select>
-              </td>
-            </tr>
+                  Submit
+                </button>
+              </div>
+            </form>
           </div>
-          <div class="w-full pt-3">
-            <button
-              type="submit"
-              id="formsubmit"
-              value="Submit"
-              class="
-                w-full
-                border border-gray-900
-                px-4
-                py-2
-                transition
-                duration-50
-                focus:outline-none
-                font-semibold
-                hover:bg-pink-500 hover:text-black
-                text-xl
-                cursor-pointer
-                rounded-3xl
-                btn btn-success
-              "
-            >
-              Submit
-            </button>
-          </div>
-        </form>
+        </div>
+      </section>
+    </div>
+    <!-- Times of India -->
+    <div class="m-2 text-center">
+      <div class="p-2">
+        <div
+          class="
+            inline-flex
+            border
+            items-center
+            bg-white
+            leading-none
+            text-pink-600
+            rounded-3xl
+            lg:rounded-full
+            p-2
+            shadow
+          "
+        >
+          <span class="inline-flex px-2 text-xl"
+            >GarbhaGudi has been awarded as Best IVF & Fertility Hospital in
+            India and it is also ranked among the top 10 IVF center in india By
+            Times of India
+          </span>
+        </div>
       </div>
-      <div class="absolute inset-0 h-auto z-10">
-        <img src="assets/slide-1-1.webp" alt="" class="h-auto w-full" />
-      </div>
-    </section>
+    </div>
     <!-- Why Garbhagudi -->
-    <div class="container mx-auto px-6 bg-white">
-      <div class="text-center">
+    <div class="container mx-auto">
+      <div class="text-center mt-10">
         <h2
           class="text-base text-pink-400 font-semibold tracking-wide uppercase"
         >
@@ -445,13 +486,11 @@
         </h2>
         <h3
           class="
-            mb-5
             text-center text-2xl
             md:text-4xl
             font-bold
             leading-9
             text-gray-800
-            mt-4
           "
         >
           Why Choose GarbhaGudi
