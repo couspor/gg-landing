@@ -4,9 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="max-age=1209600">
     <link
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet" 
+    />
+    <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css"
+      integrity="sha512-apX8rFN/KxJW8rniQbkvzrshQ3KvyEH+4szT3Sno5svdr6E/CP0QE862yEeLBMUnCqLko8QaugGkzvWS7uNfFQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <title>GarbhaGudi IVF Center - India's Best IVF Infrastructure</title>
   </head>
@@ -162,7 +170,7 @@
       method="POST"
       onSubmit='javascript:document.charset="UTF-8"; return validateCaptcha()'
       accept-charset="UTF-8"
-      class="w-full md:w-1/4 mx-auto bg-transparent mb-10"
+      class="w-4/5 md:w-1/4 mx-auto bg-transparent mb-10"
     >
       <input
         type="text"
@@ -193,7 +201,7 @@
       <input type="text" style="display: none" id="ldeskuid" name="ldeskuid" />
       <input type="text" style="display: none" id="LDTuvid" name="LDTuvid" />
       <!-- Do not remove this code. -->
-      <h3 class="mb-5 text-center text-2xl md:text-2xl font-bold text-gray-600">
+      <h3 class="mb-5 text-center text-4xl md:text-4xl font-bold text-gray-600">
         Book an Appointment
       </h3>
       <div>
@@ -406,14 +414,13 @@
             text-pink-600
             rounded-3xl
             lg:rounded-full
-            p-2
+            p-4
             shadow
           "
         >
-          <span class="inline-flex px-2 text-xl"
-            >GarbhaGudi has been awarded as Best IVF & Fertility Hospital in
-            India and it is also ranked among the top 10 IVF center in india By
-            Times of India
+          <span class="inline-flex px-2 text-xl"></span>
+            GarbhaGudi has been awarded the Best IVF & Fertility Hospital in
+            India. 🎉
           </span>
         </div>
       </div>
@@ -426,17 +433,9 @@
         >
           Features
         </h2>
-        <h3
-          class="
-            text-center text-2xl
-            md:text-4xl
-            font-bold
-            leading-9
-            text-gray-600
-          "
-        >
-          Why Choose GarbhaGudi
-        </h3>
+        <h1 class="text-4xl md:text-5xl font-bold mb-5 text-gray-600">
+          Why Choose GarbhaGudi ?
+        </h1>
       </div>
       <div class="flex flex-wrap my-4">
         <div class="w-full border-b md:w-1/2 md:border-r lg:w-1/3 p-8">
@@ -547,7 +546,7 @@
             />
             <div class="ml-4 text-xl text-gray-600">Online support</div>
           </div>
-          <p class="leading-loose text-gray-500text-md">
+          <p class="leading-loose text-gray-500 text-md">
             Patients can meet our doctors online to have a safe consultation
             during the pandemic.
           </p>
@@ -1021,36 +1020,16 @@
       </div>
     </div>
     <!-- video testimonial -->
-    <!-- <div class="video-title">
+    <div class="video-title">
       <div class="container mx-auto flex justify-center items-center">
-        <span class="text-xl underline text-center"
+        <span class="text-xl underline text-center font-semibold"
           >Meet this happy couple who turned their dream into a reality, and now
           it's your turn.</span
         >
       </div>
       <br />
-      <div
-        class="
-          container
-          flex
-          items-center
-          mx-auto
-          justify-center
-          rounded-3xl
-          aspect-w-16 aspect-h-9
-        "
-      >
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/YVyaYhk8Hbk"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </div> -->
+      <div class="container video mx-auto flex items-center justify-center w-auto" data-id="YVyaYhk8Hbk"></div>
+    </div>
     <!-- cta -->
     <div class="cta bg-gray-50 border-b">
       <div
@@ -1077,15 +1056,34 @@
               text-center
               inline-block
               rounded-3xl
+              w-40
               text-lg
               font-semibold
               py-2
               px-4
               text-white
-              bg-pink-500
+              bg-blue-700
             "
           >
-            <a href="#frm1">Book an Appointment</a>
+            <a href="tel:+918880000909">Call Us</a>
+          </button>
+          <button
+            class="
+              text-center
+              w-40
+              inline-block
+              rounded-3xl
+              text-lg
+              font-semibold
+              py-2
+              px-4
+              text-white
+              bg-green-400
+            "
+          >
+            <a href="https://api.whatsapp.com/send?phone=+919148499992">
+              WhatsApp</a
+            >
           </button>
         </div>
       </div>
