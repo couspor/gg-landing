@@ -10,10 +10,10 @@
     />
     <title>GarbhaGudi IVF Center - India's Best IVF Infrastructure</title>
   </head>
-  <body>
+  <body class="bg-gray-50">
     <!-- Navbar -->
     <header>
-      <div class="w-full text-gray-700 bg-white">
+      <div class="w-full text-gray-700 bg-white bg-gray-50">
         <div
           x-data="{ open: false }"
           class="
@@ -182,8 +182,9 @@
             md:px-16
             px-0
             z-0
+            bg-no-repeat bg-cover
           "
-          style="background-image: url(assets/7896.jpg)"
+          style="background-image: url(assets/form-bgwebp.webp)"
         >
           <div class="w-full z-20">
             <form
@@ -236,7 +237,7 @@
               <!-- Do not remove this code. -->
               <h3
                 class="
-                  mb-4
+                  mb-5
                   text-center text-2xl
                   md:text-2xl
                   font-bold
@@ -254,7 +255,8 @@
                     name="Last Name"
                     id="lname"
                     class="
-                      text-black text-semibold
+                      text-black
+                      font-semibold
                       bg-transparent
                       text-center
                       px-3
@@ -278,6 +280,8 @@
                     id="eml"
                     class="
                       bg-transparent
+                      text-black
+                      font-semibold
                       text-center
                       px-3
                       py-2
@@ -300,6 +304,8 @@
                     id="pno"
                     class="
                       bg-transparent
+                      text-black
+                      font-semibold
                       text-center
                       px-3
                       py-2
@@ -429,14 +435,15 @@
                   value="Submit"
                   class="
                     w-full
+                    text-black
+                    font-semibold
                     border-2 border-gray-900
                     px-4
                     py-2
                     transition
                     duration-50
                     focus:outline-none
-                    font-semibold
-                    hover:bg-pink-500 hover:text-black
+                    hover:bg-indigo-400
                     text-xl
                     cursor-pointer
                     rounded-3xl
@@ -452,7 +459,7 @@
       </section>
     </div>
     <!-- Times of India -->
-    <div class="m-2 text-center">
+    <div class="-m-2 text-center">
       <div class="p-2">
         <div
           class="
@@ -490,7 +497,7 @@
             md:text-4xl
             font-bold
             leading-9
-            text-gray-800
+            text-gray-600
           "
         >
           Why Choose GarbhaGudi
@@ -504,7 +511,7 @@
               alt="percent"
               class="w-8 service-svg"
             />
-            <div class="ml-4 text-xl">High Success Rates</div>
+            <div class="ml-4 text-xl text-gray-600">High Success Rates</div>
           </div>
           <p class="leading-loose text-gray-500 text-md">
             We have one of the highest success rates in the industry - over 66%
@@ -517,7 +524,9 @@
               alt="best"
               class="w-8 service-svg"
             />
-            <div class="ml-4 text-xl">Best in-class Facilities</div>
+            <div class="ml-4 text-xl text-gray-600">
+              Best in-class Facilities
+            </div>
           </div>
           <p class="leading-loose text-gray-500 text-md">
             Equipped to handle the most challenging cases with state of the art
@@ -539,7 +548,9 @@
               alt="badge"
               class="w-8 service-svg"
             />
-            <div class="ml-4 text-xl">Worldclass Fertility Care</div>
+            <div class="ml-4 text-xl text-gray-600">
+              Worldclass Fertility Care
+            </div>
           </div>
           <p class="leading-loose text-gray-500 text-md">
             GarbhaGudi is proud to have played a role in bringing more than
@@ -561,7 +572,9 @@
               alt="doctor-svgrepo-com"
               class="w-8 service-svg"
             />
-            <div class="ml-4 text-xl">Top Fertility Specialists</div>
+            <div class="ml-4 text-xl text-gray-600">
+              Top Fertility Specialists
+            </div>
           </div>
           <p class="leading-loose text-gray-500 text-md">
             Our staff consists of infertility specialists like Gynecologists,
@@ -583,7 +596,7 @@
               alt="rupee"
               class="w-8 service-svg"
             />
-            <div class="ml-4 text-xl">Affordable Care</div>
+            <div class="ml-4 text-xl text-gray-600">Affordable Care</div>
           </div>
           <p class="leading-loose text-gray-500 text-md">
             We offer affordable treatments without any compromise on service,
@@ -597,7 +610,7 @@
               alt="Online"
               class="w-8 service-svg"
             />
-            <div class="ml-4 text-xl">Online support</div>
+            <div class="ml-4 text-xl text-gray-600">Online support</div>
           </div>
           <p class="leading-loose text-gray-500text-md">
             Patients can meet our doctors online to have a safe consultation
@@ -607,9 +620,9 @@
       </div>
     </div>
     <!-- testimonial -->
-    <div class="testimonial container mx-auto rounded-3xl">
+    <div class="testimonial container mx-auto rounded-3xl bg-gray-50">
       <div class="py-8 flex items-center justify-center rounded-3xl">
-        <div class="w-full bg-white px-5 text-gray-800">
+        <div class="w-full bg-gray-50 px-5 text-gray-800">
           <div class="w-full max-w-6xl mx-auto">
             <div class="text-center max-w-xl mx-auto">
               <h1 class="text-4xl md:text-5xl font-bold mb-5 text-gray-600">
@@ -1072,14 +1085,45 @@
         </div>
       </div>
     </div>
+    <!-- video testimonial -->
+    <div class="video-title">
+      <div class="container mx-auto flex justify-center items-center">
+        <span class="text-xl underline text-center"
+          >Meet this happy couple who turned their dream into a reality, and now
+          it's your turn.</span
+        >
+      </div>
+      <br />
+      <div
+        class="
+          container
+          flex
+          items-center
+          mx-auto
+          justify-center
+          rounded-3xl
+          aspect-w-16 aspect-h-9
+        "
+      >
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/YVyaYhk8Hbk"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
     <!-- cta -->
     <div class="cta bg-gray-50 border-b">
       <div
         class="
           container
           text-center
+          py-4
           flex flex-col
-          p-4
           md:text-left md:flex-row md:items-center md:justify-between md:p-12
           bg-gray-50
           rounded-3xl
@@ -1096,6 +1140,7 @@
         <div class="mt-3 md:mt-0 md:ml-2">
           <div
             class="
+              text-center
               inline-block
               rounded-3xl
               text-lg
