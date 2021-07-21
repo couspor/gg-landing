@@ -198,7 +198,7 @@
               px-3
               py-2
               border-b-2 border-gray-900
-              focus:outline-none focus:border-3 focus:border-pink-600 
+              focus:outline-none focus:border-3 focus:border-pink-600
               form-control
               text-xl
             "
@@ -357,6 +357,7 @@
       <div class="w-full pt-3">
         <button
           type="submit"
+          onclick="return emptyInput()"
           id="formsubmit"
           value="Submit"
           class="
@@ -806,33 +807,30 @@
           <div class="flex items-center mb-6">
             <svg
               version="1.1"
-              id="Layer_1"
+              id="Capa_1"
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
               x="0px"
               y="0px"
-              viewBox="0 0 512 512"
-              style="enable-background: new 0 0 512 512;
-              width: 32px;
-              height: 32px;
-              fill: #ec3c64;
-            ""
+              width="32px"
+              height="32px"
+              viewBox="0 0 447.185 447.185"
+              style="enable-background: new 0 0 447.185 447.185; fill: #ec3c64"
               xml:space="preserve"
             >
               <g>
-                <g>
-                  <path
-                    d="M403.394,108.606h-56.401c-4.184-23.395-14.545-44.663-29.349-62.061h85.749c12.854,0,23.273-10.42,23.273-23.273
-			C426.667,10.42,416.248,0,403.394,0H217.212H108.606C95.753,0,85.333,10.42,85.333,23.273c0,0.003,0,0.005,0,0.008
-			c0,0.002,0,0.005,0,0.008c0,12.853,10.42,23.273,23.273,23.273h108.606c0.251,0,0.501-0.005,0.751-0.012
-			c38.658,0.334,71.241,26.514,81.332,62.057H108.606c-12.853,0-23.273,10.42-23.273,23.273c0,12.853,10.42,23.273,23.273,23.273
-			h190.689c-10.158,35.773-43.098,62.061-82.083,62.061H108.606c-12.853,0-23.273,10.42-23.273,23.273c0,0.002,0,0.005,0,0.008
-			c0,0.002,0,0.005,0,0.008c0,12.853,10.42,23.273,23.273,23.273h108.606c0.251,0,0.501-0.005,0.751-0.012
-			c46.71,0.403,84.582,38.527,84.582,85.33v139.636c0,12.853,10.422,23.273,23.273,23.273c12.854,0,23.273-10.42,23.273-23.273
-			V349.091c0-45.005-22.672-84.798-57.184-108.606c28.421-19.607,48.778-50.06,55.088-85.333h56.399
-			c12.854,0,23.273-10.42,23.273-23.273C426.667,119.026,416.248,108.606,403.394,108.606z"
-                  />
-                </g>
+                <path
+                  d="M358.204,96.283h-33.437c-2.211-19.379-8.961-37.519-19.672-51.56h53.108c12.721,0,23.022-9.499,23.022-22.216
+		c0-12.723-10.302-22.484-23.022-22.484H178.118c-0.659,0-1.294-0.023-1.971-0.023c-0.438,0-0.877,0.023-1.315,0.023H88.981
+		c-12.72,0-23.022,9.768-23.022,22.484s10.302,22.216,23.022,22.216h102.097c32.243,2.347,66.017,14.821,74.913,51.56H88.981
+		c-12.72,0-23.022,10.309-23.022,23.031c0,12.717,10.302,23.031,23.022,23.031h174.716c-10.87,29.034-40.728,46.742-82.225,46.742
+		h-45.788h-0.133h-26.699c-12.401,0-22.455,10.054-22.455,22.455c0,12.404,10.054,22.458,22.455,22.458h26.382
+		c0.109,0.012,0.207,0.065,0.316,0.065h41.665c45.268,1.72,65.402,21.35,76.946,75.055c9.032,39.892,15.682,65.875,20.912,81.438
+		c3.919,14.398,11.674,36.091,25.127,49.048c5.261,5.059,12.046,7.577,18.808,7.577c7.117,0,14.233-2.784,19.559-8.322
+		c9.76-10.144,9.937-25.842,0.993-36.334c-0.041-0.124-0.023-0.26-0.088-0.384c-8.258-15.32-18.247-56.412-30.435-108.533
+		c-9.688-42.381-27.787-68.778-55.213-80.499c34.437-13.22,58.127-38.506,67.412-70.772h36.966
+		c12.721,0,23.022-10.314,23.022-23.031S370.925,96.283,358.204,96.283z"
+                />
               </g>
               <g></g>
               <g></g>
@@ -860,21 +858,25 @@
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 p-8">
           <div class="flex items-center mb-6">
-            <svg 
-              version="1.1" id="Capa_1" 
-              xmlns="http://www.w3.org/2000/svg" 
-              xmlns:xlink="http://www.w3.org/1999/xlink" 
-              x="0px" 
-              y="0px" 
-              viewBox="0 0 50 50" 
-              style="enable-background:new 0 0 50 50;
-              width: 32px;
-              height: 32px;
-              fill: #ec3c64;" 
+            <svg
+              version="1.1"
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 50 50"
+              style="
+                enable-background: new 0 0 50 50;
+                width: 32px;
+                height: 32px;
+                fill: #ec3c64;
+              "
               xml:space="preserve"
-              >
+            >
               <g>
-	              <path d="M42.838,0H9.56C7.444,0,5.713,1.731,5.713,3.845v2.4H3.766c-0.248,0-0.451,0.202-0.451,0.45v4.953
+                <path
+                  d="M42.838,0H9.56C7.444,0,5.713,1.731,5.713,3.845v2.4H3.766c-0.248,0-0.451,0.202-0.451,0.45v4.953
                   c0,0.248,0.203,0.451,0.451,0.451h1.948v4.697H3.766c-0.248,0-0.451,0.202-0.451,0.45V22.2c0,0.248,0.203,0.45,0.451,0.45h1.948
                   v4.698H3.766c-0.248,0-0.451,0.201-0.451,0.449v4.954c0,0.248,0.203,0.45,0.451,0.45h1.948V37.9H3.766
                   c-0.248,0-0.451,0.203-0.451,0.451v4.953c0,0.247,0.203,0.449,0.451,0.449h1.948v2.4C5.713,48.27,7.444,50,9.56,50h33.278
@@ -886,7 +888,7 @@
                   c-0.002,0.021-0.015,0.039-0.015,0.066v5.043c0,0.293,0.24,0.533,0.533,0.533c0.298,0,0.538-0.24,0.538-0.533v-5.043
                   c0-0.027-0.014-0.045-0.016-0.066c1.347-0.312,2.373-1.778,2.373-3.543v-6.278c0-0.471-0.08-0.921-0.217-1.336
                   C32.021,15.852,35,19.464,35,23.768V32.131z"
-                  />
+                />
               </g>
               <g></g>
               <g></g>
@@ -1382,7 +1384,7 @@
       </div>
     </div>
     <!-- cta -->
-    <div class="cta border-b" style="background-color: #FDB8BB;">
+    <div class="cta border-b" style="background-color: #fdb8bb">
       <div
         class="
           container
@@ -1394,292 +1396,373 @@
           rounded-3xl
           mx-auto
         "
-        style="background-color: #FDB8BB;"
+        style="background-color: #fdb8bb"
       >
-        <div class="text-2xl font-semibold mx-auto" >
+        <div class="text-2xl font-semibold mx-auto">
           <div class="text-gray-900 flex items-center justify-center mb-4">
             Take the first step towards completing your family
           </div>
-          <button id="buttonmodal" class="text-white px-6 py-2 text-lg transition duration-300 bg-indigo-500 hover:bg-indigo-400 hover:text-black rounded-full font-semibold flex items-center justify-center mx-auto" style="background-color: #A77097;"><a href="#">Book a free consultation</a></button>
+          <button
+            id="buttonmodal"
+            class="
+              text-white
+              px-6
+              py-2
+              text-lg
+              transition
+              duration-300
+              bg-indigo-500
+              hover:bg-indigo-400 hover:text-black
+              rounded-full
+              font-semibold
+              flex
+              items-center
+              justify-center
+              mx-auto
+            "
+            style="background-color: #a77097"
+          >
+            Book a free consultation
+          </button>
         </div>
       </div>
     </div>
-
-    <div id="modal"
-    class="fixed top-0 left-0 w-screen h-screen flex items-center justify-center bg-blue-500 bg-opacity-50 transform scale-0 transition-transform duration-300">
-    <!-- Modal content -->
-    <div class="bg-blue-50 lg:w-1/4 w-full h-1/2 "> 
+    <!-- modal -->
+    <div
+      id="modal"
+      class="
+        fixed
+        top-0
+        left-0
+        w-screen
+        h-screen
+        flex
+        items-center
+        justify-center
+        bg-blue-500 bg-opacity-50
+        transform
+        scale-0
+        transition-transform
+        duration-300
+      "
+    >
+      <!-- Modal content -->
+      <div class="bg-blue-100 lg:w-1/4 w-full h-auto pb-16 rounded-2xl">
         <!--Close modal button-->
         <button id="closebutton" type="button" class="focus:outline-none">
-            <!-- Hero icon - close button -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
+          <!-- Hero icon - close button -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
         </button>
         <!-- Test content -->
         <form
-      action="https://crm.zoho.com/crm/WebToLeadForm"
-      id="frm1"
-      name="WebToLeads3505252000006603078"
-      method="POST"
-      onSubmit='javascript:document.charset="UTF-8"; return validateCaptcha()'
-      accept-charset="UTF-8"
-      class="mx-auto bg-transparent"
-    >
-      <input
-        type="text"
-        style="display: none"
-        name="xnQsjsdp"
-        value="17730c4e7d6442ffce68a431e6d754713eb2b12b9ac7777050f2773ec54ed2d2"
-      />
-      <input type="hidden" name="zc_gad" id="zc_gad" value="" />
-      <input
-        type="text"
-        style="display: none"
-        name="xmIwtLD"
-        value="61bba0cba3c8377c6a5dd6a5d5678a3677acff02a778984222db0e3894bbc6db"
-      />
-      <input
-        type="text"
-        style="display: none"
-        name="actionType"
-        value="TGVhZHM="
-      />
-      <input
-        type="text"
-        style="display: none"
-        name="returnURL"
-        value="https://www.garbhagudi-ivf.com/landing/thankyou.html"
-      /><br /><br />
-      <!-- Do not remove this code. -->
-      <input type="text" style="display: none" id="ldeskuid" name="ldeskuid" />
-      <input type="text" style="display: none" id="LDTuvid" name="LDTuvid" />
-      <!-- Do not remove this code. -->
-      <h3 class="mb-5 text-center text-2xl md:text-2xl font-bold text-gray-600">
-        Book a Free Consultation
-      </h3>
-      <div>
-        <div class="flex flex-col mb-3">
+          action="https://crm.zoho.com/crm/WebToLeadForm"
+          id="frm1"
+          name="WebToLeads3505252000006603078"
+          method="POST"
+          onSubmit='javascript:document.charset="UTF-8"; return validateCaptcha()'
+          accept-charset="UTF-8"
+          class="mx-auto bg-transparent"
+        >
           <input
             type="text"
-            maxlength="80"
-            onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode == 32)"
-            name="Last Name"
-            id="lname"
-            class="
-              text-black
-              font-semibold
-              transition
-              duration-500
-              bg-transparent
-              text-center
-              px-3
-              py-2
-              border-b-2 border-gray-900
-              focus:outline-none focus:border-3 focus:border-pink-600 
-              form-control
-              text-xl
-            "
-            autocomplete="off"
-            placeholder="Name"
+            style="display: none"
+            name="xnQsjsdp"
+            value="17730c4e7d6442ffce68a431e6d754713eb2b12b9ac7777050f2773ec54ed2d2"
           />
-        </div>
-        <div class="flex flex-col mb-3">
+          <input type="hidden" name="zc_gad" id="zc_gad" value="" />
           <input
-            type="email"
-            maxlength="100"
-            name="Email"
-            onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode > 47 && event.charCode < 58) || (event.charCode == 64) || (event.charCode == 46) || ((event.charCode == 95))"
-            id="eml"
-            class="
-              bg-transparent
-              text-black
-              font-semibold
-              text-center
-              transition
-              duration-500
-              px-3
-              py-2
-              border-b-2 border-gray-900
-              focus:outline-none focus:border-pink-600
-              form-control
-              text-xl
-            "
-            autocomplete="off"
-            placeholder="E-mail"
+            type="text"
+            style="display: none"
+            name="xmIwtLD"
+            value="61bba0cba3c8377c6a5dd6a5d5678a3677acff02a778984222db0e3894bbc6db"
           />
-        </div>
-        <div class="flex flex-col mb-3">
           <input
-            ype="text"
-            maxlength="10"
-            onkeypress="return allowOnlyDigits(event)"
-            name="Phone"
-            id="pno"
-            class="
-              bg-transparent
-              transition
-              duration-500
-              text-black
-              font-semibold
-              text-center
-              px-3
-              py-2
-              border-b-2 border-gray-900
-              focus:outline-none focus:border-pink-600
-              form-control
-              text-xl
-            "
-            autocomplete="off"
-            placeholder="Phone Number"
+            type="text"
+            style="display: none"
+            name="actionType"
+            value="TGVhZHM="
           />
-        </div>
-      </div>
-      <div class="hidden">
-        <tr style="display: none">
-          <td
-            style="
-              word-break: break-word;
-              text-align: top;
-              font-size: 12px;
-              font-family: Arial;
-              width: 30%;
+          <input
+            type="text"
+            style="display: none"
+            name="returnURL"
+            value="https://www.garbhagudi-ivf.com/landing/thankyou.html"
+          /><br /><br />
+          <!-- Do not remove this code. -->
+          <input
+            type="text"
+            style="display: none"
+            id="ldeskuid"
+            name="ldeskuid"
+          />
+          <input
+            type="text"
+            style="display: none"
+            id="LDTuvid"
+            name="LDTuvid"
+          />
+          <!-- Do not remove this code. -->
+          <h3
+            class="
+              mb-5
+              text-center text-2xl
+              md:text-2xl
+              font-bold
+              text-gray-600
             "
           >
-            Lead Source
-          </td>
-          <td style="width: 40%">
-            <select
-              style="width: 100%; box-sizing: border-box"
-              name="Lead Source"
+            Book a Free Consultation
+          </h3>
+          <div>
+            <div class="flex flex-col mb-3">
+              <input
+                type="text"
+                maxlength="80"
+                onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode == 32)"
+                name="Last Name"
+                id="lname"
+                class="
+                  mx-auto
+                  w-1/2
+                  text-black
+                  font-semibold
+                  transition
+                  duration-500
+                  bg-transparent
+                  text-center
+                  px-3
+                  py-2
+                  border-b-2 border-gray-900
+                  focus:outline-none focus:border-3 focus:border-pink-600
+                  form-control
+                  text-xl
+                "
+                autocomplete="off"
+                placeholder="Name"
+              />
+            </div>
+            <div class="flex flex-col mb-3">
+              <input
+                type="email"
+                maxlength="100"
+                name="Email"
+                onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode > 47 && event.charCode < 58) || (event.charCode == 64) || (event.charCode == 46) || ((event.charCode == 95))"
+                id="eml"
+                class="
+                  mx-auto
+                  w-1/2
+                  bg-transparent
+                  text-black
+                  font-semibold
+                  text-center
+                  transition
+                  duration-500
+                  px-3
+                  py-2
+                  border-b-2 border-gray-900
+                  focus:outline-none focus:border-pink-600
+                  form-control
+                  text-xl
+                "
+                autocomplete="off"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="flex flex-col mb-3">
+              <input
+                ype="text"
+                maxlength="10"
+                onkeypress="return allowOnlyDigits(event)"
+                name="Phone"
+                id="pno"
+                class="
+                  mx-auto
+                  w-1/2
+                  bg-transparent
+                  transition
+                  duration-500
+                  text-black
+                  font-semibold
+                  text-center
+                  px-3
+                  py-2
+                  border-b-2 border-gray-900
+                  focus:outline-none focus:border-pink-600
+                  form-control
+                  text-xl
+                "
+                autocomplete="off"
+                placeholder="Phone Number"
+              />
+            </div>
+          </div>
+          <div class="hidden">
+            <tr style="display: none">
+              <td
+                style="
+                  word-break: break-word;
+                  text-align: top;
+                  font-size: 12px;
+                  font-family: Arial;
+                  width: 30%;
+                "
+              >
+                Lead Source
+              </td>
+              <td style="width: 40%">
+                <select
+                  style="width: 100%; box-sizing: border-box"
+                  name="Lead Source"
+                >
+                  <option value="-None-">-None-</option>
+                  <option selected value="Online">Online</option>
+                  <option value="Media">Media</option>
+                  <option value="Listing">Listing</option>
+                  <option value="Referred">Referred</option>
+                  <option value="Camp">Camp</option>
+                  <option value="Sponsor">Sponsor</option>
+                </select>
+              </td>
+            </tr>
+            <tr style="display: none">
+              <td
+                style="
+                  word-break: break-word;
+                  text-align: top;
+                  font-size: 12px;
+                  font-family: Arial;
+                  width: 30%;
+                "
+              >
+                Lead Sub Source
+              </td>
+              <td style="width: 40%">
+                <select
+                  style="width: 100%; box-sizing: border-box"
+                  name="LEADCF6"
+                >
+                  <option value="-None-">-None-</option>
+                  <option selected value="GarbhaGudi&#x20;Website">
+                    GarbhaGudi Website
+                  </option>
+                  <option value="Youtube">Youtube</option>
+                  <option value="Geo&#x20;Ads">
+                    Geo Ads &#x28;Ads Media network&#x29;
+                  </option>
+                  <option value="Facebook">Facebook</option>
+                  <option value="Live&#x20;Chat">Live Chat</option>
+                  <option value="Punyahealth">Punyahealth</option>
+                  <option value="Old&#x20;Camps">Old Camps</option>
+                  <option value="Google">Google</option>
+                  <option value="Tiptur&#x20;OPD">Tiptur OPD</option>
+                  <option value="Foore">Foore</option>
+                  <option value="Instagram">Instagram</option>
+                  <option value="Chitradurga&#x20;camp">
+                    Chitradurga camp
+                  </option>
+                  <option value="Doctor&#x20;4&#x20;Africa">
+                    Doctor 4 Africa
+                  </option>
+                  <option value="Television">Television</option>
+                  <option value="Placidway">Placidway</option>
+                  <option value="Radio">Radio</option>
+                  <option value="Theater&#x20;Adds">Theater Adds</option>
+                  <option value="News&#x20;paper">News paper</option>
+                  <option value="Ziffy">Ziffy</option>
+                  <option value="Name&#x20;boards">Name boards</option>
+                  <option value="Quora">Quora</option>
+                  <option value="Practo">Practo</option>
+                  <option value="Just&#x20;Dial">Just Dial</option>
+                  <option value="Clinic&#x20;spot">Clinic spot</option>
+                  <option value="Whatclinic">Whatclinic</option>
+                  <option value="Ovu">Ovu</option>
+                  <option value="EllaWomen">EllaWomen</option>
+                  <option value="Doctor&#x20;Referral">Doctor Referral</option>
+                  <option value="Kunigal&#x20;OPD">Kunigal OPD</option>
+                  <option value="GarbhaGudi&#x20;Employee">
+                    GarbhaGudi Employee
+                  </option>
+                  <option value="Friend&#x20;&amp;&#x20;Family">
+                    Friend &amp; Family
+                  </option>
+                  <option value="Camp&#x20;&#x20;-&#x20;Kanakapura">
+                    Camp - Kanakapura
+                  </option>
+                  <option value="KONANKUNTE&#x20;CAMP">KONANKUNTE CAMP</option>
+                  <option value="Cure&#x20;consult">Cure consult</option>
+                  <option value="ClinicSpots">ClinicSpots</option>
+                  <option value="lybrate">lybrate</option>
+                  <option value="Doc&#x20;prime">Doc prime</option>
+                  <option value="Ellie&#x20;chat">Ellie chat</option>
+                  <option value="Future&#x20;Care">Future Care</option>
+                  <option value="Others">Others</option>
+                </select>
+              </td>
+            </tr>
+          </div>
+          <div class="w-full pt-3">
+            <button
+              type="submit"
+              onclick="return emptyInput()"
+              id="formsubmit"
+              value="Submit"
+              class="
+                w-1/3
+                flex
+                items-center
+                justify-center
+                mx-auto
+                text-black
+                font-semibold
+                border-2 border-gray-900
+                py-2
+                transition
+                duration-50
+                focus:outline-none
+                hover:bg-pink-300
+                text-xl
+                cursor-pointer
+                rounded-3xl
+                btn btn-success
+              "
             >
-              <option value="-None-">-None-</option>
-              <option selected value="Online">Online</option>
-              <option value="Media">Media</option>
-              <option value="Listing">Listing</option>
-              <option value="Referred">Referred</option>
-              <option value="Camp">Camp</option>
-              <option value="Sponsor">Sponsor</option>
-            </select>
-          </td>
-        </tr>
-        <tr style="display: none">
-          <td
-            style="
-              word-break: break-word;
-              text-align: top;
-              font-size: 12px;
-              font-family: Arial;
-              width: 30%;
-            "
-          >
-            Lead Sub Source
-          </td>
-          <td style="width: 40%">
-            <select style="width: 100%; box-sizing: border-box" name="LEADCF6">
-              <option value="-None-">-None-</option>
-              <option selected value="GarbhaGudi&#x20;Website">
-                GarbhaGudi Website
-              </option>
-              <option value="Youtube">Youtube</option>
-              <option value="Geo&#x20;Ads">
-                Geo Ads &#x28;Ads Media network&#x29;
-              </option>
-              <option value="Facebook">Facebook</option>
-              <option value="Live&#x20;Chat">Live Chat</option>
-              <option value="Punyahealth">Punyahealth</option>
-              <option value="Old&#x20;Camps">Old Camps</option>
-              <option value="Google">Google</option>
-              <option value="Tiptur&#x20;OPD">Tiptur OPD</option>
-              <option value="Foore">Foore</option>
-              <option value="Instagram">Instagram</option>
-              <option value="Chitradurga&#x20;camp">Chitradurga camp</option>
-              <option value="Doctor&#x20;4&#x20;Africa">Doctor 4 Africa</option>
-              <option value="Television">Television</option>
-              <option value="Placidway">Placidway</option>
-              <option value="Radio">Radio</option>
-              <option value="Theater&#x20;Adds">Theater Adds</option>
-              <option value="News&#x20;paper">News paper</option>
-              <option value="Ziffy">Ziffy</option>
-              <option value="Name&#x20;boards">Name boards</option>
-              <option value="Quora">Quora</option>
-              <option value="Practo">Practo</option>
-              <option value="Just&#x20;Dial">Just Dial</option>
-              <option value="Clinic&#x20;spot">Clinic spot</option>
-              <option value="Whatclinic">Whatclinic</option>
-              <option value="Ovu">Ovu</option>
-              <option value="EllaWomen">EllaWomen</option>
-              <option value="Doctor&#x20;Referral">Doctor Referral</option>
-              <option value="Kunigal&#x20;OPD">Kunigal OPD</option>
-              <option value="GarbhaGudi&#x20;Employee">
-                GarbhaGudi Employee
-              </option>
-              <option value="Friend&#x20;&amp;&#x20;Family">
-                Friend &amp; Family
-              </option>
-              <option value="Camp&#x20;&#x20;-&#x20;Kanakapura">
-                Camp - Kanakapura
-              </option>
-              <option value="KONANKUNTE&#x20;CAMP">KONANKUNTE CAMP</option>
-              <option value="Cure&#x20;consult">Cure consult</option>
-              <option value="ClinicSpots">ClinicSpots</option>
-              <option value="lybrate">lybrate</option>
-              <option value="Doc&#x20;prime">Doc prime</option>
-              <option value="Ellie&#x20;chat">Ellie chat</option>
-              <option value="Future&#x20;Care">Future Care</option>
-              <option value="Others">Others</option>
-            </select>
-          </td>
-        </tr>
+              Submit
+            </button>
+          </div>
+        </form>
       </div>
-      <div class="w-full pt-3">
-        <button
-          type="submit"
-          id="formsubmit"
-          value="Submit"
-          class="
-            w-1/3
-            flex
-            items-center
-            justify-center
-            mx-auto
-            text-black
-            font-semibold
-            border-2 border-gray-900
-            py-2
-            transition
-            duration-50
-            focus:outline-none
-            hover:bg-pink-300
-            text-xl
-            cursor-pointer
-            rounded-3xl
-            btn btn-success
-          "
-        >
-          Submit
-        </button>
-      </div>
-    </form>
     </div>
-  </div>
     <!-- footer -->
     <footer class="mx-auto bg-gray-50 w-full mt-4">
       <div class="max-w-screen-xl mx-auto px-4 container">
-        
         <div class="pt-4 sm:pt-12 font-light flex items-center justify-center">
           <img src="assets/logo-colored.svg" alt="logo-colored" />
         </div>
       </div>
-      <div><span class="flex items-center justify-center">&copy; Garbhagudi IVF Centre - 2021</span></div>
+      <div>
+        <span class="flex items-center justify-center"
+          >&copy; Garbhagudi IVF Centre - 2021</span
+        >
+      </div>
       <div class="my-2">
         <a
           class="
-            flex 
+            flex
             text-xl
-            items-center 
+            items-center
             justify-center
             text-gray-700
             hover:text-gray-800
@@ -1692,6 +1775,46 @@
         </a>
       </div>
     </footer>
+    <!-- whatsapp -->
+    <div class="float-left sticky" style="position: fixed; bottom: 0%">
+      <button
+        class="
+          flex
+          z-10
+          bg-green-500
+          items-center
+          justify-center
+          align-middle
+          mx-auto
+          p-0
+          w-12
+          h-12
+          bg-red-600
+          rounded-full
+          hover:bg-green-400
+          active:shadow-lg
+          mouse
+          shadow
+          transition
+          ease-in
+          duration-200
+          focus:outline-none
+        "
+      >
+        <a href="https://api.whatsapp.com/send?phone=+919148499992">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"
+            />
+          </svg>
+        </a>
+      </button>
+    </div>
     <!-- SalesIQ -->
     <script type="text/javascript" id="zsiqchat">
       var $zoho = $zoho || {};
@@ -1727,9 +1850,8 @@
       const modal = document.getElementById("modal");
       button.addEventListener("click", () => modal.classList.add("scale-100"));
       closebutton.addEventListener("click", () =>
-      modal.classList.remove("scale-100")
+        modal.classList.remove("scale-100")
       );
-
     </script>
   </body>
 </html>

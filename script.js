@@ -7,6 +7,7 @@ function checkMandatory3505252000006603078() {
   for (i = 0; i < mndFileds.length; i++) {
     var fieldObj =
       document.forms["WebToLeads3505252000006603078"][mndFileds[i]];
+
     if (fieldObj) {
       if (fieldObj.value.replace(/^\s+|\s+$/g, "").length == 0) {
         if (fieldObj.type == "file") {
@@ -51,3 +52,10 @@ function allowOnlyDigits(evt) {
   else return true;
 }
 
+function emptyInput() {
+  var lname = document.getElementById("lname").value;
+  if (lname == "") {
+    alert("Please Check Your Inputs!");
+    return null;
+  }
+}
