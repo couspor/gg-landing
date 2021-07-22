@@ -205,6 +205,7 @@
             "
             autocomplete="off"
             placeholder="Name"
+            required
           />
         </div>
         <div class="flex flex-col mb-3">
@@ -230,6 +231,7 @@
             "
             autocomplete="off"
             placeholder="E-mail"
+            required
           />
         </div>
         <div class="flex flex-col mb-3">
@@ -255,6 +257,7 @@
             "
             autocomplete="off"
             placeholder="Phone Number"
+            required
           />
         </div>
       </div>
@@ -1450,7 +1453,7 @@
       <!-- Modal content -->
       <div
         class="lg:w-1/4 w-full h-auto pb-16 rounded-2xl"
-        style="background-color: #54436b"
+        style="background-color: #F6DFEB"
       >
         <!--Close modal button-->
         <button id="closebutton" type="button" class="focus:outline-none">
@@ -1521,7 +1524,7 @@
           <!-- Do not remove this code. -->
           <h3
             class="mb-5 text-center text-2xl md:text-2xl font-bold"
-            style="background-color: #50cb93"
+            style="background-color: #ea97ad"
           >
             Book a Free Consultation
           </h3>
@@ -1548,9 +1551,10 @@
                   form-control
                   text-xl
                 "
-                style="color: #50cb93"
+                style="color: #000"
                 autocomplete="off"
                 placeholder="Name"
+                required
               />
             </div>
             <div class="flex flex-col mb-3">
@@ -1575,9 +1579,10 @@
                   form-control
                   text-xl
                 "
-                style="color: #50cb93"
+                style="color: #000"
                 autocomplete="off"
                 placeholder="E-mail"
+                required
               />
             </div>
             <div class="flex flex-col mb-3">
@@ -1601,10 +1606,12 @@
                   focus:outline-none focus:border-pink-600
                   form-control
                   text-xl
+                  placholder-black
                 "
-                style="color: #50cb93"
+                style="color: #000"
                 autocomplete="off"
                 placeholder="Phone Number"
+                required
               />
             </div>
           </div>
@@ -1715,7 +1722,6 @@
           <div class="w-full pt-3">
             <button
               type="submit"
-              onclick="return emptyInput()"
               id="formsubmit"
               value="Submit"
               class="
@@ -1736,7 +1742,7 @@
                 rounded-3xl
                 btn btn-success
               "
-              style="background-color: #50cb93"
+              style="background-color: #ea97ad"
             >
               Submit
             </button>

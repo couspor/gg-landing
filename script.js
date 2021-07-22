@@ -51,11 +51,3 @@ function allowOnlyDigits(evt) {
   if (charCode > 31 && (charCode < 48 || charCode > 57)) return false;
   else return true;
 }
-
-function emptyInput() {
-  var lname = document.getElementById("lname").value;
-  if (lname == "") {
-    alert("Please Check Your Inputs!");
-    return null;
-  }
-}
