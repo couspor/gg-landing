@@ -1,1 +1,1 @@
-## Landing Page for Ads. Demmo: https://couspor.github.io/gg-landing/
+## Landing Page for Ads. Demo: https://couspor.github.io/gg-landing/
